@@ -1,0 +1,105 @@
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #f0f0f0;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  animation: scrollBackground 50s linear infinite;
+}
+
+header {
+  background-color: #001f3f;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header img {
+  width: 100px;
+}
+
+header h1 {
+  margin-top: 10px;
+}
+
+main {
+  position: relative;
+  padding: 20px;
+}
+
+#lock-button {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  font-size: 1.5em;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+#password-section,
+#content,
+#secret {
+  background-color: #002366;
+  color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 255, 255, 0.5);
+}
+
+.educational-resources {
+  margin-top: 20px;
+}
+
+.educational-resources h2 {
+  color: #00bfff;
+}
+
+.educational-resources ul {
+  list-style: none;
+  padding: 0;
+}
+
+.educational-resources li {
+  margin-bottom: 10px;
+}
+
+.educational-resources a {
+  color: #00bfff;
+  text-decoration: underline;
+}
+
+#password-section.hidden,
+#content.hidden,
+#secret.hidden {
+  display: none;
+}
+
+footer {
+  background-color: #001f3f;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.7em;
+  text-shadow: 0px 0px 5px rgba(0, 255, 255, 0.2);
+}
+
+/* Additional futuristic styling */
+@keyframes scrollBackground {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  100% {
+    background-position: 100% 0%;
+  }
+}
+
+/* ... (continue with your existing styles) ... */
