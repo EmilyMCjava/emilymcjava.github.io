@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Futuristic Seqta Learn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <img src="logo.png" alt="Seqta Learn Logo">
+    <h1>Futuristic Seqta Learn</h1>
+  </header>
+
+  <main>
+    <section id="content">
+      <p>Welcome to the futuristic Seqta Learn experience!</p>
+      <p>Explore educational content and press the secret key to access the real Seqta Learn site.</p>
+
+      <div class="educational-resources">
+        <h2>Educational Resources</h2>
+        <ul>
+          <li><a href="#">Mathematics</a></li>
+          <li><a href="#">Science</a></li>
+          <li><a href="#">Literature</a></li>
+          <li><a href="#">History</a></li>
+          <li><a href="#">Programming</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Secret section with the game -->
+    <section id="secret" class="hidden">
+      <h2>🕹️ Secret Game Section 🎮</h2>
+      <p>Enjoy a secret educational game here!</p>
+      <!-- Add your game code here or embed an iframe with the game -->
+      <canvas id="gameCanvas" width="400" height="400"></canvas>
+    </section>
+
+    <section id="password-section" class="hidden">
+      <h2>Password Section 🔐</h2>
+      <p>Enter the password to access the secret content:</p>
+      <input type="password" id="password-input">
+      <button id="password-submit">Submit</button>
+    </section>
+
+    <button id="unlock-button">🔒 Unlock</button>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Futuristic Seqta Learn</p>
+  </footer>
+
+  <!-- JavaScript for key press, password, and game -->
+  <script src="script.js"></script>
+</body>
+
+</html>
